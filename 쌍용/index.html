@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./mainpage.html">
+    <title>쌍용</title>
+</head>
+<body>
+    <figure class="vid">
+        <video src="./video/mainvid.mp4" muted autoplay></video>
+    </figure>
+    <script type="text/javascript">
+        document.getElementById('player').addEventListener('ended', function(){
+             alert('플레이 종료!');
+        });
+        </script>
+        
+
+</body>
+</html>
